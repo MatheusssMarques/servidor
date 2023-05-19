@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <title>Projeto de Node.js</title>
+</head>
+<body>
+  <header>
+    <div class="menu-button">
+      <span class="menu-icon"></span>
+      <span class="menu-icon"></span>
+      <span class="menu-icon"></span>
+    </div>
+    <nav class="menu-nav">
+      <ul class="menu-list">
+        <li class="menu-item"><a href="index.html">Início</a></li>
+        <li class="menu-item"><a href="contatos.html">Contatos</a></li>
+        <li class="menu-item"><a href="produtos.html">Produtos</a></li>
+        <li class="menu-item"><a href="catalogos.html">Catálogos</a></li>
+      </ul>
+    </nav>
+    <h1>Projeto de Node.js</h1>
+    <!-- Adicionando o botão e o checkbox do modo noturno -->
+    <input id="night-mode" class="night-mode" type="checkbox" name="Dark mode" role="switch" value="on">
+    <button id="night-mode-button" class="night-mode-button">🌙</button>
+  </header>
+  <main class="main-content">
+    <section class="section">
+      <h2>Introdução</h2>
+      <p>Este é um projeto de desenvolvimento web que tem como objetivo criar um sistema completo em node.js que possa abrir diferentes tipos de arquivos via navegador.</p>
+      <p>O node.js é uma plataforma que permite executar código JavaScript no lado do servidor, ou seja, fora do navegador. Com o node.js, é possível criar aplicações web dinâmicas e escaláveis, usando a mesma linguagem tanto no front-end quanto no back-end.</p>
+      <p>Neste projeto, vamos usar o node.js para criar um servidor web que possa receber requisições HTTP dos usuários e enviar respostas com os arquivos solicitados. Vamos usar também alguns módulos do node.js, como o fs (para manipular arquivos), o path (para lidar com caminhos de arquivos) e o express (para facilitar a criação de rotas).</p>
+    </section>
+    <section class="section">
+      <h2>Estrutura do projeto</h2>
+      <p>O projeto vai conter dois diretórios principais: ./recursos e ./views. No diretório ./recursos, vamos colocar os arquivos que queremos abrir no navegador, como imagens, vídeos, áudios, documentos e outros. No diretório ./views, vamos colocar os arquivos HTML que vão compor o site do projeto.</p>
+      <p>Para fins de teste, vamos usar seis tipos de arquivos com nome e extensão: arquivo.docx, arquivo.pdf, arquivo.txt, imagem.jpg, video.mp4 e audio.mp3.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Projeto de Node.js - Todos os direitos reservados.</p>
+  </footer>
+  <script src="./scripts.js"></script>
+</body>
+</html>
